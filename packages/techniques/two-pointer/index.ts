@@ -33,5 +33,13 @@ export function twoSum(array: Array<number>, target: number): Array<number> {
   return output;
 }
 
-// [4,6,12,15], 10
-//
+export function reverse<K>(array: Array<K>): Array<K> {
+  let start = 0;
+  let end = array.length;
+  while (start < end) {
+    [array[start], array[end]] = [array[end], array[start]];
+    start++;
+    end--;
+  }
+  return array;
+}

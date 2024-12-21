@@ -1,13 +1,12 @@
-import { removeElements } from '../techniques/two-pointer/questions/remove-element';
+import { searchInsertPosition } from '../techniques/two-pointer/questions/search-insert-position';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [0, 1, 2, 2, 3, 0, 4, 2];
+const nums = [1, 3, 5, 6];
 const val = 2;
-const k = removeElements(nums, val);
+const k = searchInsertPosition(nums, val);
 console.log(k, nums);
-console.log(nums.slice(0, k));
 console.log(
   '------------------------------------------------------------------------------'
 );

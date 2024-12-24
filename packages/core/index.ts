@@ -1,11 +1,11 @@
-import { plusOne } from '../techniques/traversal/questions/plus-one';
+import { twoSum } from '../techniques/two-pointer/questions/two-sum-ii';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [8, 9, 9];
-const val = 2;
-const res = plusOne(nums);
+const nums = [-1, 0];
+const val = -1;
+const res = twoSum(nums, val);
 console.log(res);
 console.log(
   '------------------------------------------------------------------------------'

@@ -1,11 +1,11 @@
-import { moveZeroes } from '../techniques/two-pointer/questions/move-zeroes';
+import { sortArrayByParity } from '../techniques/two-pointer/questions/sort-array-by-parity';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [0];
+const nums = [3, 1, 2, 4];
 const val = -1;
-moveZeroes(nums);
+sortArrayByParity(nums);
 console.log(nums);
 console.log(
   '------------------------------------------------------------------------------'

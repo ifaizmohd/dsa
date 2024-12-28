@@ -1,11 +1,11 @@
-import { threeSum } from '../techniques/two-pointer/questions/three-sum';
+import { containerWithMostWater } from '../techniques/two-pointer/questions/container-with-most-water';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [-2, 0, 1, 1, 2];
+const nums = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 const val = -1;
-const output = threeSum(nums);
+const output = containerWithMostWater(nums);
 console.log(output);
 console.log(
   '------------------------------------------------------------------------------'

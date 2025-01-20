@@ -1,11 +1,11 @@
-import { containerWithMostWater } from '../techniques/two-pointer/questions/container-with-most-water';
+import { missingNumber } from '../techniques/traversal/questions/missing-number';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [1, 8, 6, 2, 5, 4, 8, 3, 7];
+const nums = [9, 6, 4, 2, 3, 5, 7, 0, 1];
 const val = -1;
-const output = containerWithMostWater(nums);
+const output = missingNumber(nums);
 console.log(output);
 console.log(
   '------------------------------------------------------------------------------'

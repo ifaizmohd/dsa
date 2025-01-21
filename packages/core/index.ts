@@ -1,11 +1,11 @@
-import { missingNumber } from '../techniques/traversal/questions/missing-number';
+import { maxProfit } from '../techniques/two-pointer/questions/best-time-to-buy-sell-stocks';
 
 console.log(
   '------------------------------------------------------------------------------'
 );
-const nums = [9, 6, 4, 2, 3, 5, 7, 0, 1];
+const nums = [7, 1, 5, 3, 6, 4];
 const val = -1;
-const output = missingNumber(nums);
+const output = maxProfit(nums);
 console.log(output);
 console.log(
   '------------------------------------------------------------------------------'

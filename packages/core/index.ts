@@ -1,4 +1,4 @@
-import { majorityElement } from '../techniques/traversal/questions/majority-element';
+import { majorityElement } from '../techniques/traversal/questions';
 
 console.log(
   '------------------------------------------------------------------------------'

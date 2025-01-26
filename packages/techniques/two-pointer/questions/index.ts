@@ -1,5 +1,6 @@
 import { maxProfit } from './best-time-to-buy-sell-stocks';
 import { containerWithMostWater } from './container-with-most-water';
+import { distinctAverages } from './distinct-averages';
 import { merge } from './merge-sorted-arrays';
 import { moveZeroes } from './move-zeroes';
 import { removeDuplicates } from './remove-duplicates-from-sorted-array';
@@ -20,4 +21,5 @@ export {
   threeSum,
   twoSum,
   merge,
+  distinctAverages,
 };
